@@ -1,127 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>1st Bootstrap project</title>
-    <link rel="stylesheet" href="stylesheet.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>working Bootstrap project</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
     <!-- header section -->
-   
-        <nav id="header" class="   navbar navbar-expand-lg mx-3 p-3 ">
-            <div class="container--fluid">
-                <a class="navbar-brand" href="#">
-                <img src="assets/images/blogrex-logo.png"  class="  " style = "width: 120px; max-width: 100%; " alt="Logo">
-               
-            </a> 
+    <div id="head-hero" class="container-fluid">
+      <nav id="header" class="container navbar px-4">
+        <div class="container-lg-3">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/images/blogrex-logo.png"
+              style="width: 100%; max-width: 200px;"
+              alt="Logo"
+            />
+          </a>
         </div>
+        <div class="container-lg-9 justify-content-end" id="navbarNav">
+          <ul class="navbar list-unstyle">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+      <!-- header section completed -->
+
+      <!-- hero-section started -->
+      <div id="hero-section" class="container">
+        <div
+          id="row-hero-section "
+          class="d-flex flex-column flex-md-row gap-3 p-3"
+        >
+          <div class="col-md-6 text-light">
+            <h1 class="fw-bold mb-3">We're The Internet Marketing Beast</h1>
+            <p class="mb-3">
+              BlogREx is a learning hub for SEO and Blogging. It aims to provide
+              result oriented and practical strategies to your internet
+              marketing and content promotion goals.
+            </p>
+            <button
+              id="button-hero-section"
+              class="text-light border-1 p-2 fw-bold"
+            >
+              Read our Blog
             </button>
-            <div class=" container justify-content-end  collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav  ">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link </a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </nav>
-
-    <!-- header section completed -->
-
-    <!-- hero-section started -->
-    <div id="hero-section" class="container-fluid ">
-        <div id="row-hero-section" class="row mx-3  p-5">
-            <div class="col-md-6 text-light">
-                <h1 class="fw-bold">We're The Internet Marketing Beast</h1>
-                <p>BlogREx is a learning hub for SEO and Blogging.
-                   It aims to provide result oriented and pratical 
-                   strategies to your internet marketing and content
-                   promotion goals.
-                </p>
-                <button id="button-hero-section" class="text-light p-1   fw-bold">Read our Blog</button>
-            </div>
-            <div class="col-md-6">
-        <img class="img-fluid" src="assets/images/head.png" alt="head-img">
-            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              class="img-fluid"
+              src="assets/images/head.png"
+              alt="head-img"
+            />
+          </div>
         </div>
+      </div>
     </div>
-     <!-- hero section completed -->
+    <!-- hero section completed -->
 
-     <!-- body section started  -->
-     <div class="container-fluid mx-5">
-        <h1 class="text-center p-3">We Can Help You With</h1>
-                   <div class="row p-5 ">
-                <div class="col-md-6">
-                    <h1>Content Writing</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                         adipisicing elit. Autem voluptatem 
-                         dolores eligendi praesentium incidunt
-                          similique voluptatibus deserunt expedita
-                           modi ea, aliquid inventore nemo voluptatum,
-                            blanditiis possimus consequatur quia
-                             accusantium dolorem.</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/images/content.png" alt="wave-top" class="img-fluid">
-                </div>
-            </div>
-            <div class="container-fluid"><hr class="text-dark border"></div>
-            <div class="row p-5">
-                <div class="col-md-6">
-                    <img src="assets/images/content.png" alt="wave-top" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <h1>Website Design</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                         adipisicing elit. Autem voluptatem 
-                         dolores eligendi praesentium incidunt
-                          similique voluptatibus deserunt expedita
-                           modi ea, aliquid inventore nemo voluptatum,
-                            blanditiis possimus consequatur quia
-                             accusantium dolorem.</p>
-                </div>
-            </div>
-            <div class="container-fluid"><hr class="text-dark border"></div>
-            <div class="row p-5">
-                <div class="col-md-6">
-                    <h1>Search Engine Optimization</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                         adipisicing elit. Autem voluptatem 
-                         dolores eligendi praesentium incidunt
-                          similique voluptatibus deserunt expedita
-                           modi ea, aliquid inventore nemo voluptatum,
-                            blanditiis possimus consequatur quia
-                             accusantium dolorem.</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/images/content.png" alt="wave-top" class="img-fluid">
+    <!-- body section started  -->
 
-                </div>
-            </div>
-       
-     </div>
-
-    
-
-   
-    
-</body>
+    <div class="container">
+      <h1 class="text-center p-3">We Can Help You With</h1>
+      <div class="d-flex flex-column flex-md-row gap-3 p-3 ">
+        <div class="col-md-6">
+          <h1  class="mb-3">Content Writing</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            voluptatem dolores eligendi praesentium incidunt similique
+            voluptatibus deserunt expedita modi ea, aliquid inventore nemo
+            voluptatum, blanditiis possimus consequatur quia accusantium
+            dolorem.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="assets/images/content.png"
+            alt="wave-top"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+        <hr class="text-dark border" />
+      <div class="d-flex flex-column-reverse flex-md-row gap-3 p-3  ">
+        <div class="col">
+          <img
+            src="assets/images/content.png"
+            alt="wave-top"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col  ">
+          <h1 class="mb-3">Website Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            voluptatem dolores eligendi praesentium incidunt similique
+            voluptatibus deserunt expedita modi ea, aliquid inventore nemo
+            voluptatum, blanditiis possimus consequatur quia accusantium
+            dolorem.
+          </p>
+        </div>
+      </div>
+        <hr class="text-dark border" />
+      <div class="d-flex flex-column flex-md-row gap-3 p-3">
+        <div class="col">
+          <h1 class="mb-3">Search Engine Optimization</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            voluptatem dolores eligendi praesentium incidunt similique
+            voluptatibus deserunt expedita modi ea, aliquid inventore nemo
+            voluptatum, blanditiis possimus consequatur quia accusantium
+            dolorem.
+          </p>
+        </div>
+        <div class="col">
+          <img
+            src="assets/images/content.png"
+            alt="wave-top"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
