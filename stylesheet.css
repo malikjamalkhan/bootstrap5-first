@@ -1,6 +1,16 @@
-#header, #hero-section, #head-hero, #button-hero-section {
+ #hero_section, #header-section,#header-navbar, #section-header{
     background-color: rgba(44, 62, 80, 255) ;
 }
-.nav-link{
+#button-hero-section{
+   background-color:  rgba(44, 60, 100, 255);
+}
+ #header-section, .nav-link{
     color: white;
+}
+#logo-img{
+    max-width: 200px;
+
+}
+.navbar-toggler:focus{
+    box-shadow: none;
 }
